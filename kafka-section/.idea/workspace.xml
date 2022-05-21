@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3a1e4ae-3fa9-49a3-b30c-14c7f631932f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\ProgrammingSoftware\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="20Cx19SyylrWBmjzno8z2i0dT3X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HBase-section" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xubowen.consume" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ProgrammingSoftware\IntelliJ IDEA Workspace\bigdata\kafka-section\kafka-api\src\main\java\com\xubowen\interceptor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Producer (1)">
+    <configuration name="HighConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xubowen.consume.HighConsumer" />
+      <module name="kafka-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xubowen.consume.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LowConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xubowen.consume.LowConsumer" />
+      <module name="kafka-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xubowen.consume.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xubowen.interceptor.Producer" />
+      <module name="kafka-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xubowen.interceptor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xubowen.produce.Producer" />
+      <module name="kafka-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xubowen.consume.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Producer (1)" />
+        <item itemvalue="Application.LowConsumer" />
+        <item itemvalue="Application.Producer" />
+        <item itemvalue="Application.HighConsumer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3a1e4ae-3fa9-49a3-b30c-14c7f631932f" name="Default Changelist" comment="" />
+      <created>1635562152701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635562152701</updated>
+      <workItem from="1635562155356" duration="9128000" />
+      <workItem from="1635597134724" duration="4935000" />
+      <workItem from="1635694909078" duration="1001000" />
+      <workItem from="1635865113506" duration="4100000" />
+      <workItem from="1636376998800" duration="7094000" />
+      <workItem from="1636464384796" duration="65000" />
+      <workItem from="1637377382139" duration="16932000" />
+      <workItem from="1637587901966" duration="2000" />
+      <workItem from="1637677549218" duration="30804000" />
+      <workItem from="1638592498303" duration="62000" />
+      <workItem from="1638592793347" duration="150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Deployment" timestamp="1637994969162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Deployment/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1637994969162" />
+    <state x="472" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638103654580">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="472" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1638103654580" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1637678731995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1637678731995" />
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1638592904679">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1638592904679" />
+    <state width="1493" height="352" key="GridCell.Tab.0.bottom" timestamp="1638592453289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="352" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1638592453289" />
+    <state width="1493" height="352" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1638020490009" />
+    <state width="1493" height="352" key="GridCell.Tab.0.center" timestamp="1638592453289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="352" key="GridCell.Tab.0.center/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1638592453289" />
+    <state width="1493" height="352" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1638020490009" />
+    <state width="1493" height="352" key="GridCell.Tab.0.left" timestamp="1638592453288">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="352" key="GridCell.Tab.0.left/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1638592453288" />
+    <state width="1493" height="352" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1638020490009" />
+    <state width="1493" height="352" key="GridCell.Tab.0.right" timestamp="1638592453289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="352" key="GridCell.Tab.0.right/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1638592453289" />
+    <state width="1493" height="352" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1638020490009" />
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom" timestamp="1637467018411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1637411175764" />
+    <state width="1493" height="230" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637467018411" />
+    <state width="1493" height="230" key="GridCell.Tab.1.center" timestamp="1637467018411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.center/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1637411175764" />
+    <state width="1493" height="230" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1637467018411" />
+    <state width="1493" height="230" key="GridCell.Tab.1.left" timestamp="1637467018411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.left/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1637411175764" />
+    <state width="1493" height="230" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1637467018411" />
+    <state width="1493" height="230" key="GridCell.Tab.1.right" timestamp="1637467018411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="230" key="GridCell.Tab.1.right/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1637411175764" />
+    <state width="1493" height="230" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1637467018411" />
+    <state x="262" y="0" key="SettingsEditor" timestamp="1638592818872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="262" y="0" key="SettingsEditor/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1638592818872" />
+    <state x="442" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1636464445972">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1635597145417" />
+    <state x="442" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1636464445972" />
+    <state x="348" y="124" key="new project wizard" timestamp="1638592940937">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="348" y="124" key="new project wizard/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1638592940937" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1637397680521">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.-121.1280.920@0.0.1536.824" timestamp="1637397680521" />
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2cf968fa-45e8-43b2-9693-b9ba80955b8f" name="192.168.80.129" url="http://192.168.80.129">
+        <fileTransfer host="192.168.80.129" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="682fc773-69ef-4cc2-a0e3-7c9c6c605612" name="win10" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="F:\" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

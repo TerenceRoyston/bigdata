@@ -3,9 +3,12 @@ package app
 import bean.{PageActionLog, PageDisplayLog, PageLog, StartLog}
 import com.alibaba.fastjson.{JSON, JSONArray, JSONObject}
 import com.alibaba.fastjson.serializer.SerializeConfig
+import org.apache.kafka.clients.consumer.ConsumerRecord
 import org.apache.spark.SparkConf
+import org.apache.spark.streaming.dstream.InputDStream
+import org.apache.spark.streaming.kafka010.{HasOffsetRanges, OffsetRange}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
-import util.MyKafkaUtils
+import util.{MyKafkaUtils, MyOffsetUtils}
 
 /**
  * @author XuBowen
@@ -19,10 +22,31 @@ object OdsBaseLogApp {
 
         val topicName = "ODS_BASE_LOG"
         val groupID = "ODS_BASE_LOG_GROUP"
-        val kafkaDStream = MyKafkaUtils.getKafkaDStream(streamingContext, topicName, groupID)
+
+        val offsets = MyOffsetUtils.readOffset(topicName, groupID)
+
+        var kafkaDStream:InputDStream[ConsumerRecord[String,String]]=null
+
+
+        if (offsets!=null && offsets.nonEmpty){
+            // get kafka offset from redis
+            kafkaDStream= MyKafkaUtils.getKafkaDStream(streamingContext, topicName, groupID, offsets)
+        }else{
+            // get kafka offset by default
+            kafkaDStream= MyKafkaUtils.getKafkaDStream(streamingContext, topicName, groupID)
+        }
+
+        var offsetRanges: Array[OffsetRange] = null
+
+        val offsetRangesDStream = kafkaDStream.transform(
+            rdd => {
+                offsetRanges = rdd.asInstanceOf[HasOffsetRanges].offsetRanges
+                rdd
+            }
+        )
 
         // we must use map function to convert message from kafka stream because it does not implement serializable interface
-        val jsonObjDStream = kafkaDStream.map(consumerRecord => {
+        val jsonObjDStream = offsetRangesDStream.map(consumerRecord => {
             val log = consumerRecord.value()
             JSON.parseObject(log)
         })
@@ -135,6 +159,7 @@ object OdsBaseLogApp {
                         }
                     }
                 )
+                MyOffsetUtils.saveOffset(topicName,groupID,offsetRanges)
             }
         )
 
